@@ -1,3 +1,3 @@
 <script type='text/javascript'>
-var obj0=document.getElementById(&quot;zet1<data:post.id/>&quot;);var obj1=document.getElementById(&quot;zet2<data:post.id/>&quot;);var s=obj1.innerHTML;var t=s.substr(0,s.length/3);var r=t.lastIndexOf(&quot;&lt;br&gt;&quot;);if(r&gt;0) {obj0.innerHTML=s.substr(0,r);obj1.innerHTML=s.substr(r+16);}
+var obj0=document.getElementById(&quot;zet1<data:post.id/>&quot;);var obj1=document.getElementById(&quot;zet2<data:post.id/>&quot;);var s=obj1.innerHTML;var t=s.substr(0,s.length/6);var r=t.lastIndexOf(&quot;&lt;br&gt;&quot;);if(r&gt;0) {obj0.innerHTML=s.substr(0,r);obj1.innerHTML=s.substr(r+16);}
 </script>
