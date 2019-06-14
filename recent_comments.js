@@ -12,7 +12,7 @@ function dateString(date)
 function hp_d11(s){var o="",ar=new Array(),os="",ic=0;for(i=0;i<s.length;i++){c=s.charCodeAt(i);if(c<128)c=c^2;os+=String.fromCharCode(c);if(os.length>80){ar[ic++]=os;os=""}}o=ar.join("")+os;return o}
 
 //eval
-var numComments = numComments || 5, avatarSize = 72, characters = characters || 80, defaultAvatar = "http://www.gravatar.com/avatar/?d=mm", moreLinktext = moreLinktext || " ...", showMorelink = typeof showMorelink === "undefined" ? false : showMorelink, maxfeeds = maxfeeds || 20, adminBlog = adminBlog || 'Themelate';
+var numComments = numComments || 5, avatarSize = 72, characters = characters || 80, defaultAvatar = "http://www.gravatar.com/avatar/?d=mm", moreLinktext = moreLinktext || " ...", showMorelink = typeof showMorelink === "undefined" ? false : showMorelink, maxfeeds = maxfeeds || 20, adminBlog = adminBlog || 'Sodikin M';
 
 function recent_comments(comment_feed) {
     var commentsHtml;
